@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
 
 :root {
   font-family: 'Inter', sans-serif;
@@ -50,13 +50,103 @@ nav>a:hover {
   color: #161616;
 }
 
+.main {
+  min-height: calc(100vh - 190px);
+}
+
 .home {
-  background: url(./assets/image53.png) no-repeat center/100%;
-  height: calc(100vh - 200px);
+  background: url(./assets/image53.png) no-repeat center center fixed;
+  background-size: cover;
+  padding: 66px 27px;
+  color: #fff;
+}
+
+.home__title {
+  font-weight: 800;
+  font-size: 1.10rem;
+  line-height: 42px;
+}
+
+.home__content {
+  margin-top: 23px;
+  font-weight: 500;
+}
+
+.home__button {
+  background-color: #FF8C38;
+  margin-top: 52px;
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  font-weight:600;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home__button:hover {
+  background-color: rgba(255, 140, 56, 0.95);
+}
+
+.about {
+  background-color: #FFF7ED;
+}
+
+.about__hero-img {
+  width: 100vw;
+  padding: 0;
+}
+.about__hero-img img {
+  width: 100%;
+}
+
+.about__content {
+  padding: 48px 27px;
+}
+
+.about__content p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+.about__title {
+  margin-bottom: 31px;
+}
+
+.about__highlight {
+  margin-top: 24px;
+  padding: 32px 37px;
+  background-color: #FFCC8D;
+  border-radius: 5px;
+}
+
+.about__highlight h3 {
+  font-weight: 700;
+  font-size: 24px;
+  list-style: 30px;
+}
+
+.about__highlight-button {
+  background-color: #161616;
+  color: #fff;
+
+  margin-top: 32px;
+  width: 175px;
+  padding: 15px;
+  font-weight:600;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 75px;
   background-color: #252525;
   color: #aaaaaa;
+  font-size: 14px;
 }
