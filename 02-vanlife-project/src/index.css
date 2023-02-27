@@ -1,12 +1,62 @@
-* {
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+:root {
+  font-family: 'Inter', sans-serif;
 }
 
-html, body {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-nav > a {
+/* html,
+body {
+} */
+
+.navbar {
+  background-color: #FFF7ED;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 115px;
+  padding: 36px 26px;
+}
+
+.navbar__logo-img {
+  width: 125px;
+  /* flex: auto; */
+}
+
+.navbar__logo-img img {
+  width: 100%;
+}
+
+nav {
+  width: 116.61px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav>a {
   text-decoration: none;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+nav>a:hover {
+  text-decoration: underline;
+  color: #161616;
+}
+
+.home {
+  background: url(./assets/image53.png) no-repeat center/100%;
+  height: calc(100vh - 200px);
+}
+
+.footer {
+  height: 75px;
+  background-color: #252525;
+  color: #aaaaaa;
 }
