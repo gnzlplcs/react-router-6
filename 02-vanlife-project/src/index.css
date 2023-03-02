@@ -14,7 +14,7 @@
 body {
 } */
 
-.navbar {
+.header {
   background-color: #FFF7ED;
   display: flex;
   flex-direction: row;
@@ -24,12 +24,12 @@ body {
   padding: 36px 26px;
 }
 
-.navbar__logo-img {
+.header__logo-img {
   width: 125px;
   /* flex: auto; */
 }
 
-.navbar__logo-img img {
+.header__logo-img img {
   width: 100%;
 }
 
